@@ -28,7 +28,7 @@ dependencies = [
 
 [[package]]
 name = "ribbit_bits"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "serde",
  "strum",
