@@ -4,16 +4,16 @@ use strum::{Display, EnumCount, EnumString, FromRepr};
 #[derive(Debug, Copy, Clone, EnumString, EnumCount, FromRepr, Display, PartialEq, Eq)]
 pub enum BitName {
     EmojiAvoidance,
+    EmojiCascade,
+    EmojiCatcher,
     EmojiGrabber,
+    EmojiSequencer,
     FlappyGun,
     MasterMind,
     MathQuiz,
+    Memoji,
     Puzzle15,
-    ShapeGrabber,
-    ShapeMasher,
-    ShapeMemorizer,
-    ShapeRacer,
-    ShapeShooter,
-    ShapeSidescroller,
+    TowerTumble,
+    WhackAMole,
     WheresWaldo,
 }
