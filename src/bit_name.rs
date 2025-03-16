@@ -12,7 +12,6 @@ pub enum BitName {
     MathQuiz,
     Memoji,
     Puzzle15,
-    TowerTumble,
     WhackAMole,
     WheresWaldo,
 }
